@@ -90,3 +90,68 @@ body {
 html {
   font-size: 16px;
 }
+
+/* SEO Overview Styles */
+section-seo-overview {
+  display: flex;
+  width: 100%;
+  padding: 50px;
+}
+
+.section-seo-sidebar {
+  width: 250px;
+  background-color: #e5f1e0;
+  padding: 47px 15px;
+  border-right: 1px solid #ccc;
+}
+
+.section-seo-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.section-seo-sidebar ul li {
+  margin: 10px 0;
+  width: 220px; /* Set fixed width for each list item */
+}
+
+.section-seo-sidebar ul li a {
+  text-decoration: none;
+  color: #000; /* Updated text color */
+  text-align: center; /* Center-align the text */
+  font-family: Roboto; /* Updated font family */
+  font-size: 20px; /* Updated font size */
+  font-style: normal; /* Updated font style */
+  font-weight: 300; /* Updated font weight */
+  line-height: normal; /* Updated line height */
+  display: block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Add ellipsis if text overflows */
+}
+
+.section-seo-sidebar ul li a:hover,
+.section-seo-sidebar ul li a:focus,
+.section-seo-sidebar ul li a.active {
+  background-color: #54c13d;
+  color: #ffffff;
+}
+
+.section-seo-content {
+  padding: 20px;
+  flex-grow: 1;
+  background-color: whitesmoke;
+}
+
+.section-seo-content > div {
+  display: none;
+}
+
+.section-seo-content > div.active {
+  display: block;
+}
+

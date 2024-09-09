@@ -41,19 +41,72 @@
           <a href="#contact-us" class="cta-button">Book a FREE Consultation</a>
       </section>
       <!-- Overview Section by Cyfred-->
-      <section>
-          <h3>Overview</h3>
-          <p>Say goodbye to cookie-cutter SEO. Say hello to strategies tailored specifically for your industry, business, and goals...</p>
-          <ul>
-              <li>SEO Audits</li>
-              <li>Keyword Research</li>
-              <li>On-Page SEO</li>
-              <li>Off-Page SEO</li>
-              <li>Technical SEO</li>
-              <li>Content Creation & Optimization</li>
-              <li>Link Building</li>
-          </ul>
-      </section>
+      <section-seo-overview>
+        <div class="section-seo-sidebar">
+            <ul>
+                <li><a href="#" onclick="showContent('section-seo-overview')">Overview</a></li>
+                <li><a href="#" onclick="showContent('section-seo-audits')">SEO Audits</a></li>
+                <li><a href="#" onclick="showContent('section-seo-keyword-research')">Keyword Research</a></li>
+                <li><a href="#" onclick="showContent('section-seo-onpage-seo')">On-Page SEO</a></li>
+                <li><a href="#" onclick="showContent('section-seo-offpage-seo')">Off-Page SEO</a></li>
+                <li><a href="#" onclick="showContent('section-seo-technical-seo')">Technical SEO</a></li>
+                <li><a href="#" onclick="showContent('section-seo-content-optimization')">Content Creation and Optimization</a></li>
+                <li><a href="#" onclick="showContent('section-seo-link-building')">Link Building</a></li>
+            </ul>
+        </div>
+
+        <div class="section-seo-content">
+            <div id="section-seo-overview" class="active">
+              <div class="section-seo-content-container">
+                <ul>
+                  <li>ICON Image</li>
+                  <li><h2>Overview</h2></li>
+                  <li><p>Say goodbye to cookie-cutter SEO. Say hello to strategies tailored specifically for your industry, business, and goals.</p></li>
+                  <li><p>At <strong>Business Growth Marketers</strong>, we understand that your business is unique, and so are your challenges. Our approach to SEO is rooted in revenue marketing, meaning every optimization we implement is directly linked to boosting your bottom line. Discover how we partner with our clients to grow their businesses through personalized, revenue-focused SEO strategies.</p></li>
+                </ul>
+                
+                
+                
+              </div>
+                
+            </div>
+
+            <div id="section-seo-audits">
+                <h2>SEO Audits</h2>
+                <p>Content for SEO Audits goes here...</p>
+            </div>
+
+            <div id="section-seo-keyword-research">
+                <h2>Keyword Research</h2>
+                <p>Content for Keyword Research goes here...</p>
+            </div>
+
+            <div id="section-seo-onpage-seo">
+                <h2>On-Page SEO</h2>
+                <p>Content for On-Page SEO goes here...</p>
+            </div>
+
+            <div id="section-seo-offpage-seo">
+                <h2>Off-Page SEO</h2>
+                <p>Content for Off-Page SEO goes here...</p>
+            </div>
+
+            <div id="section-seo-technical-seo">
+                <h2>Technical SEO</h2>
+                <p>Content for Technical SEO goes here...</p>
+            </div>
+
+            <div id="section-seo-content-optimization">
+                <h2>Content Creation and Optimization</h2>
+                <p>Content for Content Creation and Optimization goes here...</p>
+            </div>
+
+            <div id="section-seo-link-building">
+                <h2>Link Building</h2>
+                <p>Content for Link Building goes here...</p>
+            </div>
+        </div>
+    </section-seo-overview>
       <!-- 4th section by Jovelyn-->
       <section>
           <h2>Why Choose Business Growth Marketers?</h2>
@@ -91,6 +144,20 @@
     <!-- Footer Section by Judielyn -->
     <footer>
     </footer>
+
+    <script>
+      function showContent(contentId) {
+          const sections = document.querySelectorAll('.section-seo-content > div');
+          sections.forEach(section => {
+              section.classList.remove('active');
+          });
+
+          const activeSection = document.getElementById(contentId);
+          if (activeSection) {
+              activeSection.classList.add('active');
+          }
+      }
+  </script>
   </body>
   </html>
    
