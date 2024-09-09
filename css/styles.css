@@ -90,3 +90,228 @@ body {
 html {
   font-size: 16px;
 }
+
+/* 5th section */
+
+.fifth-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.fifth-container {
+  width: 90rem; /* 1440px / 16 */
+  height: 83.625rem; /* 1338px / 16 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #fff;
+  position: relative;
+}
+
+.fifth-intro {
+  width: 70.25rem; /* 1124px / 16 */
+  height: 5.4375rem; /* 87px / 16 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4.5625rem; /* 73px / 16 */
+}
+
+.fifth-intro p {
+  padding: 0 6.25rem; /* 100px / 16 */
+  margin: 0;
+  font-size: 1.25rem; /* 20px / 16 */
+  line-height: 1.6;
+  text-align: center;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fifth-intro a {
+  color: #189B90;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.25rem; /* 20px / 16 */
+}
+
+.fifth-intro a:hover {
+  text-decoration: underline;
+}
+
+.fifth-list-Titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 3.125rem; /* 50px / 16 */
+}
+
+.fifth-list-Titles .title {
+  font-size: 1.25rem; /* Adjust as needed */
+  font-weight: bold;
+}
+
+.fifth-title-2 {
+  margin-right: 1rem;
+}
+
+.fifth-list-Titles div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.25rem; /* 20px / 16 */
+  color: #68B1FC;
+  font-weight: bold;
+  font-size: 1.25rem; /* 20px / 16 */
+}
+
+.fifth-list-Titles img {
+  width: 9.375rem; /* 150px / 16 */
+}
+
+.fifth-list-shape-container {
+  width: 87.5rem; /* 1400px / 16 */
+  height: 59.75rem; /* 956px / 16 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.75rem; /* 28px / 16 */
+  padding: 1.125rem 0.875rem; /* 18px / 16, 14px / 16 */
+  box-sizing: border-box;
+  margin-top: 1.25rem; /* 20px / 16 */
+  margin-bottom: 5rem; /* 80px / 16 */
+}
+
+.fifth-bizgrowth {
+  width: 27.5rem; /* 440px / 16 */
+  height: 57.5rem; /* 920px / 16 */
+  background-color: rgba(104, 177, 252, 0.3);
+  border-radius: 3.125rem; /* 50px / 16 */
+  padding: 1.25rem; /* 20px / 16 */
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fifth-bizgrowth ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fifth-bizgrowth li {
+  position: relative;
+  padding-left: 4.375rem; /* 70px / 16 */
+  margin-bottom: 2.5rem; /* 40px / 16 */
+  line-height: 1.5;
+  font-size: 1.25rem; /* 20px / 16 */
+}
+
+.fifth-bizgrowth li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3.125rem; /* 50px / 16 */
+  height: 3.125rem; /* 50px / 16 */
+  background: url('/images/checked.svg') no-repeat center center;
+  background-size: contain;
+}
+
+.fifth-description {
+  display: block;
+  width: 21.375rem; /* 342px / 16 */
+  box-sizing: border-box;
+  padding: 0 1.25rem 0 0;
+  overflow: hidden;
+  line-height: 1.5;
+}
+
+.fifth-feature-card,
+.fifth-feature-card-2 {
+  width: 27.5rem; /* 440px / 16 */
+  height: 57.5rem; /* 920px / 16 */
+  border-radius: 3.125rem; /* 50px / 16 */
+  padding: 1.25rem; /* 20px / 16 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fifth-feature-card ul,
+.fifth-feature-card-2 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fifth-feature-card li,
+.fifth-feature-card-2 li {
+  position: relative;
+  margin-bottom: 4.6875rem; /* 75px / 16 */
+  line-height: 1.5;
+  font-size: 1.25rem; /* 20px / 16 */
+}
+
+.fifth-feature-card-2 li {
+  margin-bottom: 5.6875rem; /* 91px / 16 */
+}
+
+/* underfifth content */
+
+.under-fifth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fifth-intro-2 {
+  width: 100%; /* 1400px / 16 */
+  background-color: #189B90;
+  padding: 3.125rem 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.fifth-intro-txt {
+  width: 70.25rem; /* Match the width of .intro */
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.6;
+  font-style: sans-serif;
+}
+
+.fifth-intro-txt span {
+  font-weight: bold;
+}
+
+.fifth-btn-get-quote {
+  display: inline-block;
+  margin-top: 1.25rem;
+  padding: 0.625rem 3.125rem;
+  background-color: #EE8725;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 1.5625rem;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.fifth-btn-get-quote:hover {
+  background-color: #82C244;
+  transform: scale(1.1);
+}
