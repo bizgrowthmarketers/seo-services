@@ -8,37 +8,87 @@
     />
     <meta
       name="description"
-      content="This is a website of Website Developer company"
+      content="This is a website of SEO provider company"
     />
-
     <link rel="icon" type="image/svg+xml" href="./images/icons/favicon.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <title>SEO Services</title>
     <link rel="stylesheet" href="https://unpkg.com/normalize.css" />
+    <script defer src="./js/typedWords.js"></script>
     <link rel="stylesheet" href="./css/styles.css" />
 
   </head>
   <body>
     <main>
       <!-- Header Section by Perci-->
-      <header>
-          <h1>Maximize Your Business Growth: SEO Services that Deliver More Traffic</h1>
-          <p>Transform your business’s online performance with our proven SEO tactics that consistently generate results...</p>
-          <a href="#contact-us" class="cta-button">Book a FREE Consultation</a>
-      </header>
-      <!-- Hero Section by Perci-->
-      <section id="hero">
-          <img src="path-to-image.jpg" alt="SEO related graphic">
-          <p>Our comprehensive SEO services are designed to enhance your online visibility...</p>
+      <div class="hero-background">
+        <section class="section-hero">
+          <div class="container-hero">
+            <h1 class="section-hero-title">
+              Maximize Your<br />Business Growth:<br />SEO Services that<br />Deliver More<br />
+              <span id="typedElement" class="typed-words"></span><br />
+              <span class="spacer">For Spacing</span>
+            </h1>
+            <button
+            type="button"
+            class="button-consultation hvr-shutter-in-horizontal"
+            onclick="document.getElementById('footer-consultation').scrollIntoView({ behavior: 'smooth' })"
+            >
+            Book a FREE Consultation
+          </button>
+        </div>
+        </section>
+      </div>
+      <section class="seo-subsection">
+        <p class="seo-subsection-description">Transform your business’s online performance with our proven SEO tactics that consistently generate results.<br/><span class="subsection-span">Our comprehensive approach begins with a detailed analysis of your digital presence, pinpointing areas for optimization through targeted keyword research, on-page enhancements, and strategic link building</span>.<br/>By implementing these tactics, we not only improve your search engine rankings but also drive high-quality traffic to your site, leading to increased engagement and conversions. Our expert team customizes strategies to align with your business goals, ensuring sustained growth and a competitive advantage in the market. Let us guide your digital transformation, boost your online visibility, and deliver success through our tailored SEO solutions.
+        </p>
+        <img src="./images/seosub.webp" alt="woman thinking of better seo solution">
       </section>
+
       <!-- Subsection / 3rd section by Judielyn -->
-      <section>
-          <h2>Transform Your Online Visibility and Achieve Exceptional Results</h2>
-          <p>At Business Growth Marketers, we don’t just aim for traffic; we aim to hit the right targets...</p>
-          <a href="#contact-us" class="cta-button">Book a FREE Consultation</a>
+      <section class="why-choose-biz">
+        <div class="why-choose-biz-container">
+          <div class="why-choose-biz-content">
+            <div class="why-choose-biz-description">
+              <p>
+                At Business Growth Marketers, we don't just aim for visibility; <strong>we aim for meaningful
+                engagement. Our SEO services are tailored to your business's unique needs,
+                ensuring that every strategy is aligned with your goals.</strong> With our focus on delivering
+                measurable results, you can trust us to transform your digital presence into a powerful
+                revenue-generating machine.
+              </p>
+              <p>
+                Explore our custom SEO plans and discover how we can help you capture organic
+                search traffic and turn it into revenue. Let our expert team guide your digital transformation
+                and elevate your business in today's competitive digital landscape.
+              </p>
+            </div>
+            <div class="why-choose-biz-cta">
+              <a href="#" class="biz-cta-button">Get a Free Quote</a>
+            </div>
+          </div>
+          <div class="why-choose-biz-image">
+            <div class="why-choose-biz-heading">
+              <h1>
+                <span>Why Choose</span>
+                <span>Business Growth</span>
+                <span>Marketers?
+                </span>
+                </h1>
+            </div>
+            <div class="why-choose-biz-image-wrapper">
+              <img src="./images/why-choose-biz/why-choose.png" alt="Business Man" class="main-image">
+            </div>
+            <!-- <div class="image-wrapper">
+              <img src="images/team-meeting.jpg" alt="Team Meeting" class="small-image">
+            </div> -->
+          </div>
+        </div>
       </section>
       <!-- Overview Section by Cyfred-->
       <section class="section section-seo-overview">
@@ -221,27 +271,596 @@
           </blockquote>
       </section>
       <!-- Subframe / 5th section by Bill-->
-      <section>
-          <h2>Ready to elevate your business with strategic SEO solutions?</h2>
-          <p>Contact us today to learn more about our services and start your journey to enhanced online business growth...</p>
-          <a href="#contact-us" class="cta-button">Get a Free Quote</a>
+      <!-- Fifth Section by Bill -->
+      <section class="fifth-section">
+        <div class="fifth-container">
+          <div class="fifth-intro">
+              <p>Frustrated with SEO strategies that don't deliver? At <a>Business Growth Marketers,</a>
+                  our unique blend of expert services, personalized strategies, and cutting-edge
+                  technology sets us apart, empowering your business to achieve exceptional growth
+                  and visibility online.
+              </p>
+          </div>
+          <div class="fifth-list-Titles">
+              <div><img src="./images/logo.png" alt="logo"></div>
+              <div class="fifth-title">Compare with a typical SEO Agency</div>
+              <div class="fifth-title title-2">Contrast with In-House SEO Teams</div>
+          </div>
+          <div class="fifth-list-shape-container">
+              <div class="fifth-list-bizgrowth">
+                  <div class="fifth-bizgrowth">
+                      <ul>
+                          <li>
+                              <b>Customized SEO Solutions:</b><br>
+                              <span class="fifth-description">
+                                  Tailored strategies that align with your business
+                                  objectives to increase traffic, visibility, and revenue.
+                              </span>
+                          </li>
+                          <li>
+                              <b>Personal Account Management:</b><br>
+                              <span class="fifth-description">
+                                  Benefit from the expertise of a dedicated account
+                                  manager and our skilled in-house team working exclusively
+                                  on your SEO needs.
+                              </span>
+                          </li>
+                          <li>
+                              <b>Integrated SEO Platform:</b><br>
+                              <span class="fifth-description">
+                                  Our all-in-one platform provides seamless optimization,
+                                  measurement, and reporting, giving you valuable insights
+                                  into your SEO performance.
+                              </span>
+                          </li>
+                          <li>
+                              <b>Strategic Approach:</b><br>
+                              <span class="fifth-description">
+                                  We focus on data-driven strategies that adapt to market trends,
+                                  ensuring your business stays ahead of the competition.
+                              </span>
+                          </li>
+                          <li>
+                              <b>Efficient Project Execution:</b><br>
+                              <span class="fifth-description">
+                                  Our advanced project management tools guarantee timely delivery and
+                                  flawless execution of SEO projects.
+                              </span>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="fifth-feature-card">
+                  <ul>
+                      <li>
+                          <b>Time-Consuming Processes:</b><br>
+                          <span class="fifth-description">
+                              Agencies often require excessive input
+                              from you without providing proactive solutions.
+                          </span>
+                      </li>
+                      <li>
+                          <b>Additional Costs:</b><br>
+                          <span class="fifth-description">
+                              Subscription costs from third-party
+                              tools are typically passed on to you.
+                          </span>
+                      </li>
+                      <li>
+                          <b>Generic Strategies:</b><br>
+                          <span class="fifth-description">
+                              Reliance on copy-and-paste optimization
+                              checklists leads to mediocre results.
+                          </span>
+                      </li>
+                      <li>
+                          <b>Inconsistent Performance:</b><br>
+                          <span class="fifth-description">
+                              Agencies may fall short in addressing
+                              site issues promptly and effectively.
+                          </span>
+                      </li>
+                      <li>
+                          <b>Lack of Personalization:</b><br>
+                          <span class="fifth-description">
+                              One-size-fits-all solutions that don't
+                              align with your specific industry or needs.
+                          </span>
+                      </li>
+                  </ul>
+              </div>
+              <div class="fifth-feature-card-2">
+                  <ul>
+                      <li>
+                          <b>Overwhelming Workload:</b><br>
+                          <span class="fifth-description">
+                              Struggling to optimize 200+ ranking
+                              factors can hinder performance.
+                          </span>
+                      </li>
+                      <li>
+                          <b>Tool Integration Issues:</b><br>
+                          <span class="fifth-description">
+                              Difficulty in effectively integrating
+                              tools into a cohesive strategy.
+                          </span>
+                      </li>
+                      <li>
+                          <b>Resource Limitations:</b><br>
+                          <span class="fifth-description">
+                              Limited expertise and resources
+                              often lead to suboptimal results.
+                          </span>
+                      </li>
+                      <li>
+                          <b>Project Delays:</b><br>
+                          <span class="fifth-description">
+                              Competing priorities result in delayed
+                              projects and missed opportunities.
+                          </span>
+                      </li>
+                      <li>
+                          <b>Documentation Gaps:</b><br><span class="fifth-description">
+                              Lack of clear documentation can cause
+                              budget overruns and project setbacks.
+                          </span>
+                      </li>
+                  </ul>
+              </div>
+            </div>
+        </div>
       </section>
+      <section class="under-fifth">
+        <div class="fifth-intro-2">
+          <div class="fifth-intro-txt">
+              <p>
+                  <span>Elevate Your Business with Business Growth Marketers:</span> By choosing us, you're partnering
+                  with a team dedicated to transforming your online presence through innovative SEO solutions
+                  and personalized service. Let us unlock your business's full potential and drive tangible
+                  success together.
+              </p>
+              <a href="#" class="fifth-btn-get-quote">Get A FREE Quote</a> <!-- Button link -->
+          </div>
+      </div>
+      </section>
+
       <!-- FAQ Section by Judielyn-->
-      <section>
-          <h3>Frequently Asked Questions</h3>
-          <div>
-              <h4>Question 1</h4>
-              <p>Answer to question 1...</p>
+      <section class="faq-section">
+        <h1 class="faq-title">Frequently Asked Questions</h1>
+
+        <!-- FAQ 1 -->
+        <div class="faq-item" id="faq1">
+          <div class="faq-question">
+              <h2>What is SEO?</h2>
+              <button class="faq-accordion-item">
+                  <i class="fa-solid fa-chevron-down"></i>
+              </button>
           </div>
-          <div>
-              <h4>Question 2</h4>
-              <p>Answer to question 2...</p>
+          <div class="faq-answer" id="answer1">
+              <p>SEO, or <strong>Search Engine Optimization</strong>, is a digital marketing strategy designed to enhance a website's visibility on search engines like Google, Bing, and Yahoo.
+              This is achieved through keyword targeting, creating relevant and engaging content, and building authoritative backlinks. The ultimate goal of SEO is to attract organic traffic and 
+              improve the website's ranking on search engine results pages (SERPs).</p>
           </div>
-          <!-- Add more FAQ entries as needed -->
+      </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item" id="faq2">
+          <div class="faq-question">
+              <h2>How long does it take to see results from SEO?</h2>
+              <button class="faq-accordion-item">
+                  <i class="fa-solid fa-chevron-down"></i>
+              </button>
+          </div>
+          <div class="faq-answer" id="answer2">
+              <p>SEO is a long-term investment, and while some changes might be noticed within a few weeks, significant improvements typically take time. On average, 
+                <strong>positive ranking movements are expected between three to six months.</strong> For keywords to consistently appear on the first page, it usually 
+                takes around six to eight months. This time frame can vary depending on your industry, competition, and current website status.</p>
+          </div>
+      </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item" id="faq3">
+          <div class="faq-question">
+            <h2>How do I know if your SEO service fits my business?</h2>
+            <button class="faq-accordion-item">
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+          </div>
+          <div class="faq-answer" id="answer3">
+            <p>Our <strong>SEO services are tailored to fit the unique needs of your business. </strong>Our team of experienced SEO
+              strategist will conduct a thorough website audit to identify areas for improvement. By understanding your
+              business objectives, we customize your SEO strategy to ensure optimal results and align with your goals.
+              We pride ourselves on creating strategies that not only fit your business but elevate it.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item" id="faq4">
+          <div class="faq-question">
+            <h2>What sets your SEO services apart from others?</h2>
+            <button class="faq-accordion-item">
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+          </div>
+          <div class="faq-answer" id="answer4">
+            <p>At <strong> Business Growth Marketers, </strong> we differentiate ourselves through our <strong>personalized approach, </strong>cutting-edge technology,
+              and unwavering commitment to delivering measurable results. We don't believe in one-size-fits-all solutions. Instead,
+              we provide tailored SEO strategies backed by data-driven insights, ensuring that each client's unique needs are met
+              with precision. Our dedicated account managers and in-house experts work collaboratively to ensure your business 
+              achieves the growth it deserves.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-item" id="faq5">
+          <div class="faq-question">
+            <h2>Do you use white hat SEO strategies?</h2>
+            <button class="faq-accordion-item">
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+          </div>
+          <div class="faq-answer" id="answer5">
+            <p>Yes, we strictly adhere to <strong>white hat SEO practices </strong>that comply with Google’s guidelines or search engine
+              as a whole and best practices. Our approach focuses on ethical strategies that enhance user experience,
+              ensuring that your website maintains its integrity and avoids any potential penalties from search engines.
+              We continuously monitor algorithm changes to adjust our strategies accordingly, keeping your website in
+              good standing with search engines.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 6 -->
+        <div class="faq-item" id="faq6">
+          <div class="faq-question">
+            <h2>Will I receive reports on my SEO performance?</h2>
+            <button class="faq-accordion-item">
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+          </div>
+          <div class="faq-answer" id="answer6">
+            <p>Absolutely! Transparency is vital to our process. We provide <strong>detailed weekly and monthly reports </strong>that include insights into your
+              website’s performance, keyword rankings, traffic data, and areas for improvement. Your dedicated account manager will guide
+              you through these reports, explaining the progress and the strategic adjustments we’re making to optimize your SEO campaign.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 7 -->
+        <div class="faq-item" id="faq7">
+          <div class="faq-question">
+            <h2>What industries do you specialize in?</h2>
+            <button class="faq-accordion-item">
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+          </div>
+          <div class="faq-answer" id="answer7">
+            <p>Our SEO team is skilled in optimizing websites across a wide range of industries, both locally and internationally. We have extensive experience
+              in sectors such as <strong>estate, hospitality, finance, e-commerce, insurance, healthcare, technology, and many others. </strong> Regardless of your industry,
+              our proven methodologies are designed to maximize your online presence and drive tangible results.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 8 -->
+        <div class="faq-item" id="faq8">
+          <div class="faq-question">
+            <h2>What is your payment policy?</h2>
+            <button class="faq-accordion-item">
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+          </div>
+          <div class="faq-answer" id="answer8">
+            <p>We operate on a prepaid basis, requiring an initial payment/downpayment before launching your SEO campaign.
+              Payment can be made via bank transfer, direct deposit, or any payment gateway providers. We strive to provide
+              a seamless payment process, ensuring that doing business with us is as convenient and straightforward as possible.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 9-->
+        <div class="faq-item" id="faq9">
+          <div class="faq-question">
+            <h2>Is a contract required for your SEO services?</h2>
+            <button class="faq-accordion-item">
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+          </div>
+          <div class="faq-answer" id="answer9">
+            <p>Yes, we require clients to sign a contract with a minimum duration of three months. SEO is a strategic and time-intensive process.
+              To see meaningful results, a long-term commitment is essential. Although patience is key, rest assured that we will keep you updated
+              throughout the campaign with consistent progress reports. We advise against short-term SEO efforts as significant improvements
+              generally manifest between three to six months.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 10-->
+        <div class="faq-item" id="faq10">
+          <div class="faq-question">
+            <h2>Can you guarantee first-page rankings?</h2>
+            <button class="faq-accordion-item">
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+          </div>
+          <div class="faq-answer" id="answer10">
+            <p>While we can’t guarantee specific rankings—no ethical SEO provider can—we are committed to employing the best practices
+              that significantly enhance your website’s visibility and performance. Our focus is on creating sustainable strategies that improve
+              your site’s authority and ranking over time, leading to genuine, lasting success.</p>
+          </div>
+        </div>
+
+          <!-- FAQ 11-->
+          <div class="faq-item" id="faq11">
+            <div class="faq-question">
+              <h2>How do you handle keyword research?</h2>
+              <button class="faq-accordion-item">
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+            </div>
+            <div class="faq-answer" id="answer11">
+              <p>Keyword research is a fundamental part of our SEO strategy. We perform <strong>comprehensive keyword analysis </strong>to identify
+                high-value keywords that align with your business goals and resonate with your target audience. By understanding search
+                intent and competitive landscapes, we strategically select keywords that have the potential to drive relevant traffic and
+                conversions to your website.</p>
+            </div>
+          </div>
+
+            <!-- FAQ 12-->
+            <div class="faq-item" id="faq12">
+              <div class="faq-question">
+                <h2>How do you approach link building?</h2>
+                <button class="faq-accordion-item">
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+              </div>
+              <div class="faq-answer" id="answer12">
+                <p>Our link-building strategy emphasizes quality over quantity. We focus on acquiring <strong>authoritative and relevant backlinks </strong>from reputable
+                  sources. By fostering relationships with industry leaders, bloggers, and online publications, we build a robust backlink profile that
+                  enhances your website's credibility and search engine ranking. We prioritize ethical practices, ensuring that all backlinks adhere to
+                  search engine guidelines..</p>
+              </div>
+            </div>
+
+            <!-- FAQ 13-->
+            <div class="faq-item" id="faq13">
+              <div class="faq-question">
+                <h2>What role does content play in your SEO strategy?</h2>
+                <button class="faq-accordion-item">
+                  <i class="fa-solid fa-chevron-down"></i>
+                </button>
+              </div>
+              <div class="faq-answer" id="answer13">
+                <p>Content is a cornerstone of our SEO approach. We craft high-quality, engaging content that resonates
+                  with your audience and aligns with search intent. Our content strategies include optimizing existing content,
+                  creating new content that addresses audience needs, and employing effective on-page SEO techniques. By
+                  focusing on valuable content, we improve user experience and drive meaningful engagement.</p>
+            </div>
+            </div>
       </section>
       </main>
     <!-- Footer Section by Judielyn -->
     <footer>
+      <div class="footer-container">
+        <div class="footer-content">
+          <img
+            src="./images/footer/footer-shape.png"
+            alt="footer-shape"
+            class="footer-shape-rectangle"/>
+          <div class="footer-logo">
+            <img
+              src="./images/icons/biz.webp"
+              alt="Business Growth Marketers Logo"
+            />
+          </div>
+          <div class="footer-text">
+            <p>
+              We can help you bring your ideas to life. Let's talk about what we
+              can build and raise together.
+            </p>
+            <button class="footer-btn biz-cta-button" id="footer-consultation" onclick="window.open('https://calendar.app.google/25YrZTPW2WefFWNJA', '_blank', 'noopener,noreferrer');">
+              Book a FREE consultation
+            </button>
+          </div>
+          <div class="footer-form-container">
+            <form class="footer-contact-form">
+              <div class="footer-form-group">
+                <input
+                  type="text"
+                  id="username"
+                  name="username"
+                  placeholder="John Doe"
+                  required
+                />
+              </div>
+              <div class="footer-form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email Address"
+                  required
+                />
+              </div>
+              <div class="footer-form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Message"
+                  required
+                ></textarea>
+              </div>
+              <div class="footer-form-group">
+                <input
+                  type="checkbox"
+                  id="privacy-policy"
+                  name="privacy-policy"
+                  required
+                />
+                <label for="privacy-policy"
+                  >I have read and accept the
+                  <a href="#">privacy policy</a></label
+                >
+              </div>
+              <div class="footer-form-group">
+                <button
+                  type="submit"
+                  class="send-message-btn hvr-shutter-out-vertical"
+                  id="footer-know-how"
+                >
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="footer-sub-content">
+          <div class="services">
+            <h3>Services</h3>
+            <ul class="footer-services-list">
+              <li><a href="#">Web Design & Development</a></li>
+              <li><a href="#">SEO</a></li>
+              <li><a href="#">Paid Ads</a></li>
+            </ul>
+          </div>
+          <div class="information">
+            <h3>Information</h3>
+            <ul class="footer-information-list">
+              <li>
+                <a href="https://www.bizgrowthmarketers.com/faq" target="_blank"
+                  >FAQ</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.bizgrowthmarketers.com/blogs"
+                  target="_blank"
+                  >Blogs</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="company">
+            <h3>Company</h3>
+            <ul class="footer-company-list">
+              <li>
+                <a
+                  href="https://www.bizgrowthmarketers.com/who-we-are"
+                  target="_blank"
+                  >Who We Are</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.bizgrowthmarketers.com/contact-us"
+                  target="_blank"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="contact-info">
+            <ul class="contact-info-list">
+              <li>
+                <div class="contact-item">
+                  <a href="tel:+639776093691">
+                    <img
+                      src="./images/footer/footer-phone.svg"
+                      alt="Phone Icon"
+                    />
+                    +63 977 609 3691
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="contact-item">
+                  <a href="mailto:info@bizgrowthmarketers.com">
+                    <img
+                      src="./images/footer/footer-email.svg"
+                      alt="Email Icon"
+                    />
+                    info@bizgrowthmarketers.com
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="contact-item">
+                  <a
+                    href="https://www.google.com/maps/place/Makati+City,+Philippines/"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/footer/footer-address.svg"
+                      alt="Address Icon"
+                    />
+                    Makati City, Philippines
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="newsletter">
+            <h3>Follow the latest from us with our daily newsletter</h3>
+            <form id="newsletter-form">
+              <input type="email" placeholder="Email address" required />
+              <button
+                type="submit"
+                class="subscribe-button hvr-shutter-out-vertical"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <ul class="footer-bottom-list">
+          <li class="footer-bottom-list-item">
+            <p>
+              <a href="https://www.bizgrowthmarketers.com/" target="_blank">
+                © 2024 Business Growth Marketers
+              </a>
+              | All rights reserved.
+            </p>
+          </li>
+          <li class="footer-bottom-list-item">
+            <div class="footer-social-media">
+              <div class="footer-fb-icon">
+                <a
+                  href="https://www.facebook.com/businessgrowthmarketers"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./images/footer/footer-fb.svg"
+                    alt="Facebook"
+                    width="45"
+                    height="45"
+                  />
+                </a>
+              </div>
+              <div class="footer-linkedin-icon">
+                <a
+                  href="https://www.linkedin.com/company/business-growth-marketers"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-media-text"
+                >
+                  <img
+                    src="./images/footer/footer-linkedin.svg"
+                    alt="LinkedIn"
+                    width="45"
+                    height="45"
+                    class="footer-icons"
+                  />
+                </a>
+              </div>
+              <a
+                href="https://www.bizgrowthmarketers.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-media-text"
+              >
+                /businessgrowthmarketers
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </footer>
 
     <script>
@@ -270,6 +889,7 @@
       });
     });
   </script>
+    <script type="module" src="./js/faq.js"></script>
   </body>
   </html>
    
