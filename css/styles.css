@@ -229,6 +229,7 @@ html {
 .section-seo-overview {
   display: flex;
   width: 100%;
+  height: auto;
   margin-top: 50px;
   margin-bottom: 50px;
 
@@ -237,6 +238,19 @@ html {
   /* width: 1440px; */
   height: auto;
   flex-shrink: 0;
+}
+
+.section-seo-overview p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  /* line-height: 30px; */
+}
+
+.section-seo-overview strong {
+  font-weight: 650;
 }
 
 .section-seo-sidebar {
