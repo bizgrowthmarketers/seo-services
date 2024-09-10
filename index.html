@@ -8,9 +8,8 @@
     />
     <meta
       name="description"
-      content="This is a website of Website Developer company"
+      content="This is a website of SEO provider company"
     />
-
     <link rel="icon" type="image/svg+xml" href="./images/icons/favicon.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
@@ -20,21 +19,35 @@
 
     <title>SEO Services</title>
     <link rel="stylesheet" href="https://unpkg.com/normalize.css" />
+    <script defer src="./js/typedWords.js"></script>
     <link rel="stylesheet" href="./css/styles.css" />
 
   </head>
   <body>
     <main>
       <!-- Header Section by Perci-->
-      <header>
-          <h1>Maximize Your Business Growth: SEO Services that Deliver More Traffic</h1>
-          <p>Transform your business’s online performance with our proven SEO tactics that consistently generate results...</p>
-          <a href="#contact-us" class="cta-button">Book a FREE Consultation</a>
-      </header>
-      <!-- Hero Section by Perci-->
-      <section id="hero">
-          <img src="path-to-image.jpg" alt="SEO related graphic">
-          <p>Our comprehensive SEO services are designed to enhance your online visibility...</p>
+      <div class="hero-background">
+        <section class="section-hero">
+          <div class="container-hero">
+            <h1 class="section-hero-title">
+              Maximize Your<br />Business Growth:<br />SEO Services that<br />Deliver More<br />
+              <span id="typedElement" class="typed-words"></span><br />
+              <span class="spacer">For Spacing</span>
+            </h1>
+            <button
+            type="button"
+            class="button-consultation hvr-shutter-in-horizontal"
+            onclick="document.getElementById('footer-consultation').scrollIntoView({ behavior: 'smooth' })"
+            >
+            Book a FREE Consultation
+          </button>
+        </div>
+        </section>
+      </div>
+      <section class="seo-subsection">
+        <p class="seo-subsection-description">Transform your business’s online performance with our proven SEO tactics that consistently generate results.<br/><span class="subsection-span">Our comprehensive approach begins with a detailed analysis of your digital presence, pinpointing areas for optimization through targeted keyword research, on-page enhancements, and strategic link building</span>.<br/>By implementing these tactics, we not only improve your search engine rankings but also drive high-quality traffic to your site, leading to increased engagement and conversions. Our expert team customizes strategies to align with your business goals, ensuring sustained growth and a competitive advantage in the market. Let us guide your digital transformation, boost your online visibility, and deliver success through our tailored SEO solutions.
+        </p>
+        <img src="./images/seosub.webp" alt="woman thinking of better seo solution">
       </section>
 
       <!-- Subsection / 3rd section by Judielyn -->
