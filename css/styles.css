@@ -596,7 +596,7 @@ html {
   transform: translateY(-50%);
   width: 3.125rem; /* 50px / 16 */
   height: 3.125rem; /* 50px / 16 */
-  background: url('/images/checked.svg') no-repeat center center;
+  background: url('../images/checked.svg') no-repeat center center;
   background-size: contain;
 }
 
