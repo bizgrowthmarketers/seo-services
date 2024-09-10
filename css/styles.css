@@ -103,6 +103,9 @@ body {
 html {
   font-size: 16px;
 }
+
+
+
 /* hero */
 .hero-background {
   width: 100%;
@@ -220,6 +223,210 @@ html {
   max-width: clamp(11.25rem, 7.5109rem + 18.6957vw, 22rem) ;
   width: 100%;
   margin: 0 auto;
+}
+
+/* -------------------------------------SEO Overview Styles--------------------------------- */
+.section-seo-overview {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  padding-left: 50px;
+  padding-right: 0px;
+  /* width: 1440px; */
+  height: auto;
+  flex-shrink: 0;
+}
+
+.section-seo-sidebar {
+  align-content: center;
+}
+
+.section-seo-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.section-seo-sidebar ul li a {
+
+  display: flex;
+  width: 210px;
+  height: 70px;
+  padding: 21px 44px 22px 44px;
+
+  justify-content: center;
+  align-items: center;
+  
+  flex-shrink: 0;
+  border: 1px solid #82C244;
+  /* text-decoration: none; */
+
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+
+  padding: 10px 15px;
+  /* background-color: #ffffff; */
+
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-overflow: ellipsis; 
+  margin: 0;
+}
+
+.section-seo-sidebar ul li a:hover,
+.section-seo-sidebar ul li a:focus,
+.section-seo-sidebar ul li a.active {
+  color: #EE8725;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-seo-sidebar-list{
+  list-style-type: none;
+  padding: 0;
+}
+
+.section-seo-content {
+  padding: 0;
+  flex-grow: 1;
+  /* background-color: whitesmoke; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.section-seo-ellipse {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 600px; 
+  height: 600px;
+  background-color: #82C244; 
+  z-index: 1; /* Ensures it is on top */
+  overflow: hidden;
+  clip-path: circle(50% at 73% 5%);
+}
+
+.section-seo-overview-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px; /* Add some space between cards */
+}
+
+.section-seo-content-container{
+  width: 576px;
+  height: 619px;
+  flex-shrink: 0;
+  padding-left: 27px;
+}
+
+.section-seo-content-list {
+  flex: 2;
+  /* background-color: #e5f1e0; */
+  padding: 15px;
+}
+
+.section-seo-content-list-item-header{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  gap: 10px;
+  /* background-color: #dcafaf; */
+}
+
+.section-seo-content-list-item-header h2 {
+  color: #000;
+  text-align: center;
+  font-family: "Roboto Serif";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.section-seo-content-list-item-header img{
+  padding-left: 49px;
+}
+
+.section-seo-content-sub-list p{
+
+  list-style-type: disc; 
+  padding-left: 20px; 
+}
+
+.section-seo-content-sub-list-item.section-seo-bullet{
+  list-style: disc;
+}
+
+
+.section-seo-content-image-container {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  z-index: 2;
+  margin-top: 120px;
+  margin-bottom: 160px;
+  padding: 0;
+
+  width: 585.142px;
+  height: 379px;
+
+}
+
+.section-seo-content-image-container img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: zoomOut 2s ease-in-out ;
+}
+
+@keyframes zoomOut { 
+    0% { 
+      transform: scale(1.2); /* Start scaled up *
+      /opacity: 1; /* Fully visible */ 
+    } 
+    25% { 
+      transform: scale(1); /* End at original size */
+      opacity: 1; /* Fully visible */ 
+    } 
+  }
+
+.section-seo-sidebar-list-item a:hover ~ .section-seo-content .section-seo-content-image-container img,
+.section-seo-sidebar-list-item a:focus ~ .section-seo-content .section-seo-content-image-container img,
+.section-seo-sidebar-list-item a.active ~ .section-seo-content .section-seo-content-image-container img {
+  transform: scale(0.9); /* Zoom out effect */
+}
+
+
+
+.section-seo-content > div {
+  display: none;
+}
+
+.section-seo-content > div.active {
+  display: flex;
+}
+
+
+.section-seo-content-sub-list {
+  list-style-type: disc; /* Adds bullets to the list items */
+  padding-left: 20px; /* Adds some padding to the left to indent the bullets */
+}
+
+.section-seo-content-sub-list-item {
+  margin-bottom: 10px; /* Adds some space between list items */
 }
 /* --------------------------------------------------------------Why Choose Biz------------------------------------------------ */
 
