@@ -592,6 +592,60 @@ html {
   right: -50px;
   border: 5px solid #ffa500;
 } */
+/* Feedback Section*/
+
+.feedback-container{
+  background-color: #FAF7F0;
+  display: flex;
+  margin-top: 0;
+}
+.feedback-intro {
+  width: 720px;
+  height: 700px;
+  padding: 60px;
+}
+.feedback-title{
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Rosario";
+}
+.fds-con {
+  width: 720px;
+  height: 700px;
+  margin: 10px auto;
+}
+.carousel {
+  position: relative;
+  overflow: hidden;
+}
+.fd-slider {
+  display: flex;
+  width: calc(100% * 3);
+  transition: transform 0.3s ease;
+}
+.fds {
+  flex: 0 0 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  height: 100%;
+  padding-left: 100px;
+}
+.controls .arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.arrow.left {
+  left: 10px;
+}
+.arrow.right {
+  right: 10px;
+}
+
 
 /* --------------------------------------------------------------FAQ------------------------------------------------ */
 
