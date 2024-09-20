@@ -203,6 +203,7 @@ html {
   width: 100%;
   margin: 0 auto;
   padding: var(--sec-pad);
+  padding-bottom: 0; 
   background-color: var(--white);
   display: flex;
   flex-direction: column;
@@ -225,13 +226,75 @@ html {
   margin: 0 auto;
 }
 
+/* --------------------section-transform styles----------------*/
+.section-transform{
+  display : flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.section-transform-header-container{
+  width: 800px;
+  padding: 20px;
+}
+
+.section-transform-header-container h2 {
+  color: #000;
+  font-family: "Roboto Serif";
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  width: 714px;
+  height: auto;
+
+  display: block;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0px 15px;
+  margin-bottom: 55px;
+}
+
+.section-transform-header-container h3 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 40px;
+
+  padding: 0px 15px;
+}
+
+.section-transform-cta-container{
+  margin-left: 15px;
+
+}
+
+.section-transform-image-container{
+  width: 618px;
+  height: 750px;
+}
+
+.section-transform-image-container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
 /* -------------------------------------SEO Overview Styles--------------------------------- */
 .section-seo-overview {
   display: flex;
   width: 100%;
   height: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  /* margin-top: 50px; */
+  /* margin-bottom: 50px; */
 
   padding-left: 50px;
   padding-right: 0px;
@@ -435,18 +498,19 @@ html {
 
 
 .section-seo-content-sub-list {
-  list-style-type: disc; /* Adds bullets to the list items */
-  padding-left: 20px; /* Adds some padding to the left to indent the bullets */
+  list-style-type: disc; 
+  padding-left: 20px; 
 }
 
 .section-seo-content-sub-list-item {
-  margin-bottom: 10px; /* Adds some space between list items */
+  margin-bottom: 10px; 
 }
 /* --------------------------------------------------------------Why Choose Biz------------------------------------------------ */
 
 .why-choose-biz {
   background-color: white;
-  padding: 3.125rem;
+  /* padding: 3.125rem; */
+  /* padding: 3.125rem 0 3.125rem 3.125rem; */
 }
 
 .why-choose-biz-container {
@@ -555,7 +619,10 @@ html {
   font-weight: 900;
   position: absolute;
   left: 1.25rem;
-  padding: 0.625rem;
+  padding-bottom: 0.625rem;
+  padding-right: 0.625rem;
+  padding-top: 3.125rem;
+  padding-left: 3.125rem;
   z-index: 10;
   display: flex;
   flex-direction: column;
@@ -572,26 +639,146 @@ html {
   width: 100vw;
 }
 
-/* circle*/
-/* .main-image {
-  width: 350px;
-  height: 350px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 10px solid #ffa500;
-} */
+.feedback-container{
+  background-color: #FAF7F0;
+  display: flex;
+  margin-top: 0;
+  padding-bottom: 50px;
+}
+.feedback-intro {
+  width: 720px;
+  height: auto;
 
-/* circle small */
-/* .small-image {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
+  padding-top: 160px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+  margin-right: 196px;
+  width: 426px;
+  height: 327px;
+}
+
+.feedback-title{
+  padding-top: 40px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+
+.feedback-title h2 {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+}
+
+.feedback-subtitle{
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.feedback-highlight {
+  color: #009688;
+  font-weight: bold;
+}
+.fds-con {
+  width: 720px;
+  height: 650px;
+  margin: 10px auto;
+  position: relative;
+}
+.carousel {
+  position: relative;
+  overflow: hidden;
+}
+.fd-slider {
+  display: flex;
+  width: calc(100% * 3);
+  transition: transform 0.3s ease;
+
+}
+.fds {
+  flex: 0 0 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  height: 100%;
+  padding-left: 100px;
+
+  width: 590px;
+  height: 460px;
+  flex-shrink: 0;
+  background: #FFF;
+
+
+}
+
+.fds p:nth-of-type(1){
+  color: #000;
+  font-family: Rosario;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.fds h2 {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.fds h3 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.fds p:nth-of-type(2) {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+}
+
+
+.controls .arrow {
   position: absolute;
-  bottom: -30px;
-  right: -50px;
-  border: 5px solid #ffa500;
-} */
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.arrow.left {
+  left: 10px;
+}
+.arrow.right {
+  right: 10px;
+}
+
+.feedback-quotation-marks {
+  position: relative;
+  top: 6%; /* Adjust as needed */
+  left: 10%;
+  transform: translateX(-50%);
+  z-index: 1000; /* Ensure it is on top */
+}
 
 /* --------------------------------------------------------------FAQ------------------------------------------------ */
 
