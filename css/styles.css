@@ -825,7 +825,7 @@ html {
   padding: 6.25rem 1.25rem;
   background-color: white;
   padding: clamp(2rem, 5vw, 6.25rem) 1.25rem;
-  /* width: clamp(18.75rem, 80%, 75rem); */
+  width: clamp(18.75rem, 80%, 75rem);
 }
 
 .faq-title {
