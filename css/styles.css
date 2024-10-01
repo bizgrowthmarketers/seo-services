@@ -347,17 +347,23 @@ html {
   .section-transform-header-container{
     padding: 0;
   }
-  .section-transform-header-list{
-    padding-left: 0;
-    margin-right: 15.625rem;;
+
+    .section-transform-header-list {
+        padding-left: 0;
+        margin-right: 3.1rem;
   }
 
   .section-transform-header-container h2 {
     padding-right: 13.75rem;
+    margin-bottom: 1.625rem;
   }
     .section-transform-image-container{
       position: absolute;
       left: 40%;
+    }
+
+    .section-transform-cta-container{
+      padding-left: 0.9375rem;
     }
 }
 
@@ -1736,23 +1742,23 @@ label a:hover {
 /* Tablet View */
 @media (min-width: 768px) and (max-width: 1023px) {
   .footer-shape-rectangle {
-    padding: 0 15px;
+    padding: 0 0.938rem;
   }
 
   .footer-text p{
     text-align: left;
     font-size: 1.50rem;
-    margin-right: 140px;
-    margin-left: 25px;
+    margin-right: 8.75rem;
+    margin-left: 1.563rem;
   }
 
   .footer-btn{
-    margin-top: 70px;
-    left: 50px;
+    margin-top: 4.375rem;
+    left: 1.875rem;
   }
 
   .footer-form-container{
-    width: 350px;
+    width: 21.875rem;
   }
 
   .footer-sub-content{
